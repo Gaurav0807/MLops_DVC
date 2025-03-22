@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     save_dataframe(df)
 
-    k = 3
+    k = 5
     processed_df = process_data(k)
     print(f"Data Shape :- {df.shape}")
     print(f"Processed Data Shape :- {processed_df.shape}")
